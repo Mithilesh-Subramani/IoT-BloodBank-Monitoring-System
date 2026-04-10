@@ -14,8 +14,8 @@ An embedded system designed for real-time monitoring of blood storage conditions
 
 - Arduino (C/C++)
 - Embedded Systems
-- MQTT Protocol (HiveMQ)
-- HTML + JavaScript (Web Dashboard)
+- MQTT Protocol 
+- HTML 
 - Tinkercad (Simulation)
 
    System Architecture
@@ -37,6 +37,8 @@ The embedded system was simulated using Tinkercad to validate sensor readings an
 
   IoT Implementation
 
-The system uses the MQTT protocol for real-time communication.
+We have used Tinkercad due to its cost effectiveness and open-source capabilities 
+
+The system uses the MQTT protocol for real-time communication shown using website broker that emulates publish and subcribe features of esp32 with HTML
 
 Data is published to: Bloodbank/temp website 
