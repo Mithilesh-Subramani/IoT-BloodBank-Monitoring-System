@@ -15,7 +15,7 @@ void loop() {
   int sensorValue = analogRead(TEMP_PIN);
 
   float voltage = sensorValue * (5.0 / 1023.0);
-  float temperature = (voltage - 0.5) * 100; // TMP36
+  float temperature = (voltage - 0.5) * 100; 
 
   Serial.print("Temperature: ");
   Serial.println(temperature);
