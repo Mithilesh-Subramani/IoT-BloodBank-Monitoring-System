@@ -42,3 +42,6 @@ We have used Tinkercad due to its cost effectiveness and open-source capabilitie
 The system uses the MQTT protocol for real-time communication shown using website broker that emulates publish and subcribe features of esp32 with HTML
 
 Data is published to: Bloodbank/temp website 
+
+## Author 
+Mithilesh Subramani 
